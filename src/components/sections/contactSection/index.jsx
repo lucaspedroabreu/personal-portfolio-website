@@ -92,8 +92,10 @@ function Contact() {
             required
           />
           <input type="email" name="email" placeholder="Your Email" required />
-          <textarea name="message" id="message" rows={10} required></textarea>
-          <div style={{ display: "flex", gap: "1rem" }}>
+          <textarea name="message" id="message" required></textarea>
+          <div
+            style={{ display: "flex", gap: "1rem", flexWrap: "wrap-reverse" }}
+          >
             <button className="btn btn-primary" type="submit">
               Send Message
             </button>

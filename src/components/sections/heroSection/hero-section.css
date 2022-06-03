@@ -81,21 +81,35 @@ header {
 /* ================= MEDIA QUERIES (MEDIUM DEVICES) ================= */
 @media screen and (max-width: 1024px) {
   header {
-    /* height: 68vh; */
-    height: 100vh;
+    padding-top: 5rem;
+  }
+  .myName {
+    font-family: "Lato", sans-serif;
+    font-size: 3rem;
+    line-height: 3.6rem;
+    padding: 1rem;
+  }
+
+  .my_avatar {
+    margin-top: 2rem;
+  }
+
+  .cta {
+    margin-top: 1rem;
   }
 }
 
 /* ================= MEDIA QUERIES (SMALL DEVICES) ================= */
 @media screen and (max-width: 600px) {
   header {
+    padding-top: 2rem;
     height: 90vh;
   }
 
   .social_links {
     display: flex;
     flex-direction: row;
-    bottom: 0;
+    bottom: 1.2rem;
     left: 50%;
     transform: translateX(-50%);
     gap: 1.2rem;

@@ -17,8 +17,10 @@
   border-radius: 1.2rem;
   text-align: center;
   border: 1px solid transparent;
-  overflow: -moz-hidden-unscrollable;
   transition: var(--transition-std);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .contact__option:hover {
@@ -29,12 +31,18 @@
 .contact__option-icon {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
+  align-self: center;
 }
 
 .contact__option a {
   margin-top: 0.7rem;
   display: inline-block;
   font-size: 0.8rem;
+}
+
+.contact__option h4,
+.contact__option h5 {
+  display: inline-block;
 }
 
 /* ================= FORM ================= */
