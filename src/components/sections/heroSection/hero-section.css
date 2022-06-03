@@ -1,0 +1,125 @@
+header {
+  height: 100vh;
+  padding-top: 7rem;
+  overflow: hidden;
+}
+
+.header_container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+.name_logo {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.myName {
+  font-family: "Lato", sans-serif;
+  font-size: 3.2em;
+}
+
+/* ============ CTA ============ */
+.cta {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+/* ============ Social Links ============ */
+.social_links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.8rem;
+  position: absolute;
+  left: 0;
+  bottom: 3rem;
+}
+
+.social_links > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.social_links::after {
+  content: "";
+  width: 1px;
+  height: 2rem;
+  margin-left: 0.4rem;
+  background: var(--color-primary);
+}
+
+/* ============ Avatar ============ */
+.my_avatar {
+  background: linear-gradient(var(--color-primary), transparent);
+  width: 22rem;
+  height: 30rem;
+  position: absolute;
+  left: calc(50% - 11rem);
+  /* transform: translateX(-50%); */
+  margin-top: 4rem;
+  border-radius: 12rem 12rem 0 0;
+  overflow: hidden;
+  padding-bottom: 5rem;
+}
+
+/* ============ Scroll Down ============ */
+.scroll_down {
+  position: absolute;
+  right: -2.3rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+/* ================= MEDIA QUERIES (MEDIUM DEVICES) ================= */
+@media screen and (max-width: 1024px) {
+  header {
+    /* height: 68vh; */
+    height: 100vh;
+  }
+}
+
+/* ================= MEDIA QUERIES (SMALL DEVICES) ================= */
+@media screen and (max-width: 600px) {
+  header {
+    height: 90vh;
+  }
+
+  .social_links {
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 1.2rem;
+    margin: 0 auto;
+  }
+
+  .social_links > a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+  }
+
+  .social_links::after {
+    width: 1px;
+    border: 1px solid var(--color-primary);
+    height: 2rem;
+    margin-left: 1rem;
+    background: var(--color-primary);
+    transform: rotate(90deg);
+  }
+
+  .scroll_down {
+    display: none;
+  }
+}

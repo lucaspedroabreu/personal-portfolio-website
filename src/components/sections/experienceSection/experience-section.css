@@ -1,0 +1,112 @@
+.experience__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "frontend backend"
+    "frontend others";
+  gap: 2rem;
+}
+
+.experience__container > div {
+  background: var(--color-bg-variant);
+  height: fit-content;
+  padding: 2.4rem 5rem;
+  border-radius: 2rem;
+  border: 2px solid transparent;
+  transition: var(--transition-std);
+}
+
+.experience__container > div:hover {
+  background: rgba(256, 256, 256, 0.1);
+  border-color: var(--color-primary-variant);
+}
+
+.experience__container > div h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-primary);
+}
+
+.experience__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem;
+}
+
+.experience__details {
+  display: flex;
+  margin: 1rem;
+  gap: 1rem;
+}
+
+.experience__details > * {
+  line-height: 1.2rem;
+}
+
+.experience__details-icon {
+  margin-top: 6px;
+  color: var(--color-primary);
+}
+
+.experience__frontend {
+  grid-area: frontend;
+  padding: 20rem;
+}
+
+.experience__backend {
+  grid-area: backend;
+}
+
+.experience__others {
+  grid-area: others;
+}
+
+/* ================= MEDIA QUERIES (MEDIUM DEVICES) ================= */
+@media screen and (max-width: 1024px) {
+  .experience__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "frontend"
+      "backend"
+      "others";
+    gap: 1.2rem;
+  }
+
+  .experience__container > div {
+    width: 90%;
+    height: fit-content;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+
+  .experience__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-self: center;
+    padding: 1rem auto;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .experience__details {
+    margin: 0.2rem auto;
+    padding: 0.2rem 0.2rem;
+  }
+}
+
+/* ================= MEDIA QUERIES (SMALL DEVICES) ================= */
+@media screen and (max-width: 600px) {
+  .experience__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-self: center;
+    padding: 1rem auto;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+  }
+}
