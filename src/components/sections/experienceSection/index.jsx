@@ -1,6 +1,6 @@
-import React from "react";
-import "./experience-section.css";
-import { BsPatchCheckFill } from "react-icons/bs";
+import React from "react"
+import "./experience-section.css"
+import { BsPatchCheckFill } from "react-icons/bs"
 
 function Experience() {
   return (
@@ -23,7 +23,7 @@ function Experience() {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
@@ -44,14 +44,14 @@ function Experience() {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Tailwind</h4>
-                <small className="text-light">Inexperienced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Chakra-UI</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
@@ -69,10 +69,17 @@ function Experience() {
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <BsPatchCheckFill className="experience__details-icon no-experience" />
               <div>
                 <h4>Remix.run</h4>
                 <small className="text-light">Inexperienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon no-experience" />
+              <div>
+                <h4>Redux</h4>
+                <small className="text-light">No Experience</small>
               </div>
             </article>
           </div>
@@ -81,24 +88,38 @@ function Experience() {
           <h3>Backend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <BsPatchCheckFill className="experience__details-icon no-experience" />
               <div>
                 <h4>NodeJS</h4>
                 <small className="text-light">Inexperienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <BsPatchCheckFill className="experience__details-icon no-experience" />
               <div>
                 <h4>PostgreSQL</h4>
                 <small className="text-light">Inexperienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <BsPatchCheckFill className="experience__details-icon no-experience" />
               <div>
                 <h4>Prisma</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Inexperienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon no-experience" />
+              <div>
+                <h4>Express</h4>
+                <small className="text-light">Inexperienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon no-experience" />
+              <div>
+                <h4>NestJS</h4>
+                <small className="text-light">No experience</small>
               </div>
             </article>
           </div>
@@ -109,21 +130,28 @@ function Experience() {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>NodeJS</h4>
-                <small className="text-light">Inexperienced</small>
+                <h4>Coaching</h4>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>PostgreSQL</h4>
-                <small className="text-light">Inexperienced</small>
+                <h4>Keynote</h4>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Prisma</h4>
+                <h4>Lecturing</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Marketing</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
@@ -131,7 +159,7 @@ function Experience() {
         </div>
       </div>
     </section>
-  );
+  )
 }
 
-export default Experience;
+export default Experience

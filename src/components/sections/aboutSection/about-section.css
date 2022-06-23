@@ -39,10 +39,16 @@
 .about__card {
   background: var(--color-bg-variant);
   border: 2px solid transparent;
+  line-height: 1.2rem;
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
   transition: var(--transition-std);
+}
+
+.about__card small {
+  display: inline-block;
+  margin-top: 0.75rem;
 }
 
 .about__card:hover {

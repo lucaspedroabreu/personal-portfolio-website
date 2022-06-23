@@ -1,10 +1,9 @@
-import React from "react";
-import "./hero-section.css";
-import "../../../index.css";
-import CTA from "./CTA";
-import avatar from "../../../assets/avatar-lpa-foto.png";
-import SocialLinks from "./SocialLinks";
-import lpaLogo from "../../../assets/lpa-logo-white.png";
+import React from "react"
+import "./hero-section.css"
+import "../../../index.css"
+import CTA from "./CTA"
+import avatar from "../../../assets/avatar-lpa-foto.png"
+import SocialLinks from "./SocialLinks"
 
 function Hero() {
   return (
@@ -27,7 +26,7 @@ function Hero() {
         </a>
       </div>
     </header>
-  );
+  )
 }
 
-export default Hero;
+export default Hero

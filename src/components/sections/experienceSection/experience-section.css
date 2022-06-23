@@ -49,6 +49,10 @@
   color: var(--color-primary);
 }
 
+.experience__details-icon.no-experience {
+  color: gray;
+}
+
 .experience__frontend {
   grid-area: frontend;
   padding: 20rem;

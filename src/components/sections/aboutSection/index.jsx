@@ -1,8 +1,8 @@
-import React from "react";
-import "./about-section.css";
-import me from "../../../assets/lpa-foto-hero.png";
-import { FaAward, FaUser } from "react-icons/fa";
-import { VscFolderLibrary } from "react-icons/vsc";
+import React from "react"
+import "./about-section.css"
+import me from "../../../assets/lpa-foto-hero.png"
+import { FaAward, FaUser } from "react-icons/fa"
+import { VscFolderLibrary } from "react-icons/vsc"
 
 function About() {
   return (
@@ -22,30 +22,34 @@ function About() {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>2+ years working</small>
+              <small>
+                Generalistic knowledge and complimentary know-how across
+                different segments
+              </small>
             </article>
             <article className="about__card">
               <FaUser className="about__icon" />
-              <h5>Clients</h5>
-              <small>20 clients</small>
+              <h5>Personality</h5>
+              <small>
+                People person with client oriented mindset and leadership traits
+              </small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>2+ completed</small>
+              <small>20+ websites</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae
-            repellat blanditiis vero fugiat natus consequuntur molestiae ratione
-            fugit consectetur, nemo error at quisquam necessitatibus
-            perspiciatis nostrum voluptas atque cum officiis! Aliquam itaque
-            similique eos eius reprehenderit quibusdam blanditiis corporis ut
-            ratione assumenda odit numquam nesciunt, hic pariatur saepe
-            molestias neque ad unde omnis dicta. Praesentium maxime illo modi
-            consectetur velit. Eveniet vel voluptates ullam temporibus
-            recusandae repudiandae quaerat fugiat?
+            Hello there! I'm Lucas Pedro Abreu, a wannabe entrperneur and web
+            developer with a passion for creating beautiful and functional web
+            applications. I've had experience ranging from finance, passing
+            through construction, marketing and coaching. I've had some
+            experience with embrionary entrepreneurial ideas as well, but those
+            did not grow past MVP stage. Today I'm focused on frontend
+            development and I'm always looking for new ways to improve my
+            skills.
           </p>
 
           <a href="#contact" className="btn btn-primary">
@@ -54,7 +58,7 @@ function About() {
         </div>
       </div>
     </section>
-  );
+  )
 }
 
-export default About;
+export default About

@@ -1,6 +1,6 @@
-import React from "react";
-import { BiCheck } from "react-icons/bi";
-import "./services-section.css";
+import React from "react"
+import { BiCheck } from "react-icons/bi"
+import "./services-section.css"
 
 function Services() {
   return (
@@ -11,118 +11,66 @@ function Services() {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>UI / UX Design</h3>
-          </div>
-
-          <ul className="service__list">
-            <li className="service__item">
-              <BiCheck className="service__item-icon" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
-                explicabo.
-              </p>
-            </li>
-            <li className="service__item">
-              <BiCheck className="service__item-icon" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
-                explicabo.
-              </p>
-            </li>
-            <li className="service__item">
-              <BiCheck className="service__item-icon" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
-                explicabo.
-              </p>
-            </li>
-            <li className="service__item">
-              <BiCheck className="service__item-icon" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
-                explicabo.
-              </p>
-            </li>
-            <li className="service__item">
-              <BiCheck className="service__item-icon" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
-                explicabo.
-              </p>
-            </li>
-            <li className="service__item">
-              <BiCheck className="service__item-icon" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
-                explicabo.
-              </p>
-            </li>
-          </ul>
-        </article>
-        <article className="service">
-          <div className="service__head">
             <h3>Web Development</h3>
           </div>
 
           <ul className="service__list">
             <li className="service__item">
               <BiCheck className="service__item-icon" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
-                explicabo.
-              </p>
+              <p>Corporate homepages</p>
             </li>
             <li className="service__item">
               <BiCheck className="service__item-icon" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
-                explicabo.
-              </p>
+              <p>Landing pages</p>
             </li>
             <li className="service__item">
               <BiCheck className="service__item-icon" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
-                explicabo.
-              </p>
+              <p>Traditional Websites</p>
             </li>
             <li className="service__item">
               <BiCheck className="service__item-icon" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
-                explicabo.
-              </p>
+              <p>One Page Applications</p>
             </li>
             <li className="service__item">
               <BiCheck className="service__item-icon" />
+              <p>Blogs with CMS and blogging tools</p>
+            </li>
+          </ul>
+        </article>
+        <article className="service">
+          <div className="service__head">
+            <h3>Keynote</h3>
+          </div>
+
+          <ul className="service__list">
+            <li className="service__item">
+              <BiCheck className="service__item-icon" size={40} />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
-                explicabo.
+                Event driven keynote speaches to consolidate corporate culture.
               </p>
             </li>
             <li className="service__item">
-              <BiCheck className="service__item-icon" />
+              <BiCheck className="service__item-icon" size={40} />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
-                explicabo.
+                Interactive speaches to encourage team work and integration.
               </p>
             </li>
             <li className="service__item">
-              <BiCheck className="service__item-icon" />
+              <BiCheck className="service__item-icon" size={50} />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
-                explicabo.
+                Roster of best selling book oriented keynotes to promote best
+                practices and mindset.
               </p>
             </li>
             <li className="service__item">
-              <BiCheck className="service__item-icon" />
+              <BiCheck className="service__item-icon" size={40} />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
-                explicabo.
+                Leadership training for better presentation and daily meetings.
               </p>
             </li>
           </ul>
         </article>
+
         <article className="service">
           <div className="service__head">
             <h3>Coaching</h3>
@@ -131,51 +79,29 @@ function Services() {
           <ul className="service__list">
             <li className="service__item">
               <BiCheck className="service__item-icon" />
+              <p>Assisstance on bridging capability gaps</p>
+            </li>
+            <li className="service__item">
+              <BiCheck className="service__item-icon" />
+              <p>Self-centric strategies to develop momentum</p>
+            </li>
+            <li className="service__item">
+              <BiCheck className="service__item-icon" />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
-                explicabo.
+                Goal assessment to identify and develop better goal adherence
               </p>
             </li>
             <li className="service__item">
               <BiCheck className="service__item-icon" />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
-                explicabo.
-              </p>
-            </li>
-            <li className="service__item">
-              <BiCheck className="service__item-icon" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
-                explicabo.
-              </p>
-            </li>
-            <li className="service__item">
-              <BiCheck className="service__item-icon" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
-                explicabo.
-              </p>
-            </li>
-            <li className="service__item">
-              <BiCheck className="service__item-icon" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
-                explicabo.
-              </p>
-            </li>
-            <li className="service__item">
-              <BiCheck className="service__item-icon" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
-                explicabo.
+                Personality trait assessment for better teamwork and cohesion
               </p>
             </li>
           </ul>
         </article>
       </div>
     </section>
-  );
+  )
 }
 
-export default Services;
+export default Services
