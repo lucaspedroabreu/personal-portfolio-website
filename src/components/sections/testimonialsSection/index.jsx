@@ -1,14 +1,14 @@
-import React from "react";
-import "./testimonials-section.css";
+import React from "react"
+import "./testimonials-section.css"
 
 // import Swiper core and required modules
-import { Pagination } from "swiper";
+import { Pagination } from "swiper"
 
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react"
 
 // Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
+import "swiper/css"
+import "swiper/css/pagination"
 
 const testimonialsDB = [
   {
@@ -29,7 +29,7 @@ const testimonialsDB = [
     review:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam labore explicabo eveniet obcaecati asperiores. Soluta explicabo estoptio cumque praesentium!",
   },
-];
+]
 
 function Testimonials() {
   return (
@@ -45,7 +45,7 @@ function Testimonials() {
         pagination={{ clickable: true }}
       >
         {testimonialsDB.map((user, index) => (
-          <SwiperSlide>
+          <SwiperSlide key={index}>
             <article className="testimonial" key={index}>
               <div className="client__avatar">
                 <img src={user.avatar} alt={user.name} />
@@ -57,7 +57,7 @@ function Testimonials() {
         ))}
       </Swiper>
     </section>
-  );
+  )
 }
 
-export default Testimonials;
+export default Testimonials

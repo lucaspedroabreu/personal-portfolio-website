@@ -1,9 +1,9 @@
-import React from "react";
-import "./portfolio-section.css";
-import portfolioOne from "../../../assets/alien-pixels-webapp.png";
-import portfolioTwo from "../../../assets/alien-pixels-webapp2.png";
-import portfolioThree from "../../../assets/alien-pixels-webapp.png";
-import portfolioFour from "../../../assets/alien-pixels-webapp2.png";
+import React from "react"
+import "./portfolio-section.css"
+import portfolioOne from "../../../assets/alien-pixels-webapp.png"
+import portfolioTwo from "../../../assets/alien-pixels-webapp2.png"
+import portfolioThree from "../../../assets/alien-pixels-webapp.png"
+import portfolioFour from "../../../assets/alien-pixels-webapp2.png"
 
 const portfolioData = [
   {
@@ -14,27 +14,27 @@ const portfolioData = [
     title: "Image Uploader App with Node and React",
   },
   {
-    id: 1,
+    id: 2,
     image: portfolioTwo,
     github: "http://github.com/lucaspedroabreu",
     demo: "http://github.com/lucaspedroabreu",
     title: "Feedback Widget with Vite App",
   },
   {
-    id: 1,
+    id: 3,
     image: portfolioThree,
     github: "http://github.com/lucaspedroabreu",
     demo: "http://github.com/lucaspedroabreu",
     title: "Proffy App",
   },
   {
-    id: 1,
+    id: 4,
     image: portfolioFour,
     github: "http://github.com/lucaspedroabreu",
     demo: "http://github.com/lucaspedroabreu",
     title: "Example",
   },
-];
+]
 
 function Portfolio() {
   return (
@@ -71,7 +71,7 @@ function Portfolio() {
         ))}
       </div>
     </section>
-  );
+  )
 }
 
-export default Portfolio;
+export default Portfolio
