@@ -1,12 +1,11 @@
-import React from "react";
-import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
-import { GrInstagram } from "react-icons/gr";
+import React from "react"
+import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa"
 
 const SocialLinks = () => {
   return (
     <div className="social_links">
       <a
-        href="https://linkedin.com/lucaspedroabreu"
+        href="https://www.linkedin.com/in/lucas-pedro-abreu/"
         target="_blank"
         rel="noreferrer noopener"
       >
@@ -27,7 +26,7 @@ const SocialLinks = () => {
         <FaGithub /> <span>GitHub</span>
       </a>
     </div>
-  );
-};
+  )
+}
 
-export default SocialLinks;
+export default SocialLinks
