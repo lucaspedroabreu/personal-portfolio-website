@@ -1,38 +1,39 @@
 import React from "react"
 import "./portfolio-section.css"
-import portfolioOne from "../../../assets/alien-pixels-webapp.png"
-import portfolioTwo from "../../../assets/alien-pixels-webapp2.png"
-import portfolioThree from "../../../assets/alien-pixels-webapp.png"
-import portfolioFour from "../../../assets/alien-pixels-webapp2.png"
+import portfolioOne from "../../../assets/screenshot-event-platform.png"
+import portfolioTwo from "../../../assets/screenshot-feedback-widget.png"
+import portfolioThree from "../../../assets/screenshot-image-uploader.png"
+import portfolioFour from "../../../assets/screenshot-github-explorer.png"
 
 const portfolioData = [
   {
     id: 1,
     image: portfolioOne,
-    github: "http://github.com/lucaspedroabreu",
-    demo: "http://github.com/lucaspedroabreu",
-    title: "Image Uploader App with Node and React",
+    github: "https://github.com/lucaspedroabreu/event-plataform-app",
+    demo: "https://event-plataform-app.vercel.app/",
+    title: "Event Plataform Application with lessons schedule and CMS",
   },
   {
     id: 2,
     image: portfolioTwo,
-    github: "http://github.com/lucaspedroabreu",
-    demo: "http://github.com/lucaspedroabreu",
+    github: "https://github.com/lucaspedroabreu/feedback-widget",
+    demo: "https://feedback-widget-two-pied.vercel.app/",
     title: "Feedback Widget with Vite App",
   },
   {
     id: 3,
     image: portfolioThree,
-    github: "http://github.com/lucaspedroabreu",
-    demo: "http://github.com/lucaspedroabreu",
-    title: "Proffy App",
+    github: "https://github.com/lucaspedroabreu/image-uploader-backend",
+    demo: "https://lpa-image-uploader.herokuapp.com/",
+    title:
+      "A simple single responsability app with complete functionality: Uploads images to a remote storage and lets you fetch it or remove it.",
   },
   {
     id: 4,
     image: portfolioFour,
-    github: "http://github.com/lucaspedroabreu",
-    demo: "http://github.com/lucaspedroabreu",
-    title: "Example",
+    github: "https://github.com/lucaspedroabreu/github_explorer",
+    demo: "https://github-explorer-rust-rho.vercel.app/",
+    title: "A simple Github explorer web application",
   },
 ]
 
