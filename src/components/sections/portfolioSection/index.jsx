@@ -4,6 +4,7 @@ import portfolioOne from "../../../assets/screenshot-event-platform.png"
 import portfolioTwo from "../../../assets/screenshot-feedback-widget.png"
 import portfolioThree from "../../../assets/screenshot-image-uploader.png"
 import portfolioFour from "../../../assets/screenshot-github-explorer.png"
+import portfolioFive from "../../../assets/ignite-feed-screenshot.png"
 
 const portfolioData = [
   {
@@ -34,6 +35,13 @@ const portfolioData = [
     github: "https://github.com/lucaspedroabreu/github_explorer",
     demo: "https://github-explorer-rust-rho.vercel.app/",
     title: "A simple Github explorer web application",
+  },
+  {
+    id: 4,
+    image: portfolioFive,
+    github: "https://github.com/lucaspedroabreu/feed-page-example",
+    demo: "https://feed-page-example.vercel.app/",
+    title: "A Mocking Social Feed Page",
   },
 ]
 
