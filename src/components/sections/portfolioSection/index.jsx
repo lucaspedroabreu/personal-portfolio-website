@@ -5,6 +5,7 @@ import portfolioTwo from "../../../assets/screenshot-feedback-widget.png"
 import portfolioThree from "../../../assets/screenshot-image-uploader.png"
 import portfolioFour from "../../../assets/screenshot-github-explorer.png"
 import portfolioFive from "../../../assets/ignite-feed-screenshot.png"
+import portfolioSix from "../../../assets/modern-ui-todo-app-screenshot.png"
 
 const portfolioData = [
   {
@@ -42,6 +43,13 @@ const portfolioData = [
     github: "https://github.com/lucaspedroabreu/feed-page-example",
     demo: "https://feed-page-example.vercel.app/",
     title: "A Mocking Social Feed Page",
+  },
+  {
+    id: 5,
+    image: portfolioSix,
+    github: "https://github.com/lucaspedroabreu/mordern-ui-todos-list",
+    demo: "https://mordern-ui-todos-list.vercel.app/",
+    title: "A modern UI Todo List App",
   },
 ]
 
