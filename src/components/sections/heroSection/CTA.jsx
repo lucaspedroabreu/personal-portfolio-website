@@ -1,5 +1,6 @@
-import React from "react";
-import cv from "../../../assets/curriculum-vitae.pdf";
+// @ts-nocheck
+import React from 'react'
+import cv from '../../../assets/curriculum-vitae-v1.pdf'
 
 const CTA = () => {
   return (
@@ -11,7 +12,7 @@ const CTA = () => {
         Let's Talk
       </a>
     </div>
-  );
-};
+  )
+}
 
-export default CTA;
+export default CTA
