@@ -1,6 +1,6 @@
 // @ts-nocheck
 import React from 'react'
-import cv from '../../../assets/curriculum-vitae-v1.pdf'
+import cv from '../../../assets/curriculum-vitae-v2.pdf'
 
 const CTA = () => {
   return (
