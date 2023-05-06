@@ -88,35 +88,35 @@ function Experience() {
           <h3>Backend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon no-experience" />
+              <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>NodeJS</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon no-experience" />
+              <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>PostgreSQL</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon no-experience" />
+              <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Prisma</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon no-experience" />
+              <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Express</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon no-experience" />
+              <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Fastify</h4>
                 <small className="text-light">Intermediate</small>
