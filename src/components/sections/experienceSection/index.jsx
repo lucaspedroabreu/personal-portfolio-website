@@ -44,7 +44,7 @@ function Experience() {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Tailwind</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
@@ -75,13 +75,13 @@ function Experience() {
                 <small className="text-light">Inexperienced</small>
               </div>
             </article>
-            <article className="experience__details">
+            {/* <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon no-experience" />
               <div>
                 <h4>Redux</h4>
                 <small className="text-light">No Experience</small>
               </div>
-            </article>
+            </article> */}
           </div>
         </div>
         <div className="experience__backend">
@@ -91,28 +91,35 @@ function Experience() {
               <BsPatchCheckFill className="experience__details-icon no-experience" />
               <div>
                 <h4>NodeJS</h4>
-                <small className="text-light">Inexperienced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon no-experience" />
               <div>
                 <h4>PostgreSQL</h4>
-                <small className="text-light">Inexperienced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon no-experience" />
               <div>
                 <h4>Prisma</h4>
-                <small className="text-light">Inexperienced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon no-experience" />
               <div>
                 <h4>Express</h4>
-                <small className="text-light">Inexperienced</small>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon no-experience" />
+              <div>
+                <h4>Fastify</h4>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
